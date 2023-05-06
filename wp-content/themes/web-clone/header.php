@@ -192,10 +192,11 @@
                 <div class="block1">
                     <?php
                         if(function_exists('the_custom_logo')){
-                            the_custom_logo();
+                            $custom_logo_id = get_theme_mod('custom_logo');
+                            $logo = wp_get_attachment_image_src($custom_logo_id);
                         }
                     ?>
-                    <!-- <img class="logo" src="https://hotoc.vn/files/g_07582829-6d384b01a-4/hotocvnlogo-e3b50ad6.png" /> -->
+                    <img class="logo" src="<?php echo $logo[0] ?>" alt="logo" />
                 </div>
                 <div class="block2" style="height:100%;">
                     <div class="text">
