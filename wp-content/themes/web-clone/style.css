@@ -4003,9 +4003,19 @@ tr.comment td.col1 a img {
 }
 
 #_x393b1d button {
+    color: currentColor !important;
     height: 28px;
     margin-right: 5px;
-    float: left
+    float: left;
+    border-radius: 5px !important;
+    background-color: lightgreen !important;
+    outline: none;
+    border: none;
+}
+
+#_x393b1d button:hover{
+    background-color: rgba(144, 238, 144, 0.759) !important;
+
 }
 
 #_y82460c td.link-u {
@@ -7505,7 +7515,8 @@ span.medal-name {
 #_d80a53f span.img.doing {
     background-color: #000;
     color: #fff;
-    font-weight: bold
+    font-weight: bold;
+    color:#6d6a6a76;
 }
 /* END-----------------css_ff43ca2c_7.css?ver=136-----------------END */
 

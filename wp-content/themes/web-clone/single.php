@@ -5,7 +5,6 @@
         <?php
             if(have_posts()){
                 while(have_posts()){
-                    $title = the_title();
                    
                     the_post();
 
@@ -19,7 +18,7 @@
 
 <style>
 .container{
-    height: 500px;
+    height: 100%;
     padding: 10px 100px;
     margin: 0px 258px;
     background-color: #fff;
