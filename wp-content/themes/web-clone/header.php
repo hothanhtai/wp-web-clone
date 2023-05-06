@@ -190,7 +190,12 @@
             <div class="mask"></div>
             <div style="position:absolute;width:100%;height:100%;top:0;left:0;max-height:100%;">
                 <div class="block1">
-                    <img class="logo" src="https://hotoc.vn/files/g_07582829-6d384b01a-4/hotocvnlogo-e3b50ad6.png" />
+                    <?php
+                        if(function_exists('the_custom_logo')){
+                            the_custom_logo();
+                        }
+                    ?>
+                    <!-- <img class="logo" src="https://hotoc.vn/files/g_07582829-6d384b01a-4/hotocvnlogo-e3b50ad6.png" /> -->
                 </div>
                 <div class="block2" style="height:100%;">
                     <div class="text">
