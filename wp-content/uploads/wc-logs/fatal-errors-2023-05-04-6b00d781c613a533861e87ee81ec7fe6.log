@@ -1,0 +1,10 @@
+2023-05-04T23:50:42+00:00 CRITICAL Uncaught Error: Undefined constant "‘woocommerce_default_address_fields’" in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\storefront\functions.php:101
+Stack trace:
+#0 C:\xampp\htdocs\hothanhtai_wp\wp-settings.php(591): include()
+#1 C:\xampp\htdocs\hothanhtai_wp\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\hothanhtai_wp\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\hothanhtai_wp\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\hothanhtai_wp\wp-admin\theme-editor.php(10): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\storefront\functions.php on line 101
+

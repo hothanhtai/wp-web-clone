@@ -1,0 +1,42 @@
+2023-05-05T00:44:25+00:00 CRITICAL syntax error, unexpected token "echo", expecting "," or ";" in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\type\template-parts\header\header-layout1.php on line 34
+
+2023-05-05T09:44:47+00:00 CRITICAL Uncaught Error: Call to undefined function wp_enque_script() in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\functions.php:10
+Stack trace:
+#0 C:\xampp\htdocs\hothanhtai_wp\wp-includes\class-wp-hook.php(308): taiho_register_scripts('')
+#1 C:\xampp\htdocs\hothanhtai_wp\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\hothanhtai_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\hothanhtai_wp\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\hothanhtai_wp\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\xampp\htdocs\hothanhtai_wp\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\hothanhtai_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\hothanhtai_wp\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\front-page.php(6): wp_head()
+#9 C:\xampp\htdocs\hothanhtai_wp\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\hothanhtai_wp\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\hothanhtai_wp\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\functions.php on line 10
+
+2023-05-05T09:47:07+00:00 CRITICAL Uncaught Error: Call to undefined function wp_enque_script() in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\functions.php:10
+Stack trace:
+#0 C:\xampp\htdocs\hothanhtai_wp\wp-includes\class-wp-hook.php(308): taiho_register_scripts('')
+#1 C:\xampp\htdocs\hothanhtai_wp\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\hothanhtai_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\hothanhtai_wp\wp-includes\script-loader.php(2194): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\hothanhtai_wp\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\xampp\htdocs\hothanhtai_wp\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\hothanhtai_wp\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\hothanhtai_wp\wp-includes\general-template.php(3049): do_action('wp_head')
+#8 C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\front-page.php(6): wp_head()
+#9 C:\xampp\htdocs\hothanhtai_wp\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\hothanhtai_wp\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\hothanhtai_wp\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\functions.php on line 10
+
+2023-05-05T12:46:53+00:00 CRITICAL syntax error, unexpected token "function" in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\functions.php on line 19
+
+2023-05-05T12:46:55+00:00 CRITICAL syntax error, unexpected token "function" in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\functions.php on line 19
+
+2023-05-05T12:48:17+00:00 CRITICAL syntax error, unexpected token "}" in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\functions.php on line 18
+

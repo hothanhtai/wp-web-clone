@@ -1,0 +1,200 @@
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    color: #808080;
+    font-style: italic
+}
+
+ul.newstoolbar,ul.newstoolbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    list-style-type: none
+}
+
+ul.newstoolbar {
+    margin-bottom: 5px;
+    height: 30px;
+    z-index: 2;
+    background-color: #fff
+}
+
+ul.newstoolbar>li>ul>li {
+    padding: 0;
+    background-color: #e5e5e5
+}
+
+ul.newstoolbar>li>ul>li:hover {
+    background-color: #fff
+}
+
+ul.newstoolbar>li {
+    display: inline-block;
+    float: left;
+    position: relative;
+    background-color: #fff
+}
+
+ul.newstoolbar>li a:focus {
+    outline: 0
+}
+
+ul.newstoolbar>li>ul {
+    display: none;
+    top: 30px;
+    position: absolute;
+    left: 0;
+    width: 100px;
+    border-bottom: 1px solid #808080
+}
+
+ul.newstoolbar>li:hover>ul,ul.newstoolbar li:hover>div {
+    display: block
+}
+
+ul.newstoolbar>li:hover>ul.onclick,ul.newstoolbar li:hover>div.onclick {
+    display: none
+}
+
+ul.newstoolbar>li:hover>ul.onhover,ul.newstoolbar li:hover>div.onhover {
+    display: block
+}
+
+ul.newstoolbar>li>div.table {
+    display: none;
+    top: 30px;
+    width: 250px;
+    border-top: none;
+    opacity: .9
+}
+
+ul.newstoolbar>li>div.table>div {
+    z-index: 100;
+    opacity: 1
+}
+
+ul.newstoolbar>li>div.table button {
+    z-index: 200;
+    margin-bottom: 5px;
+    opacity: 1
+}
+
+ul.newstoolbar>li>a {
+    display: block;
+    width: 28px;
+    height: 30px;
+    border: 1px solid #808080;
+    margin-right: 2px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 28px;
+    color: #000
+}
+
+ul.newstoolbar>li>ul>li {
+    width: 100%
+}
+
+ul.newstoolbar>li>ul>li>a {
+    display: block;
+    padding: 0 5px;
+    width: 100%;
+    height: 24px
+}
+
+ul.newstoolbar>li>ul.fontSize>li>a {
+    height: 36px;
+    line-height: 36px
+}
+
+ul.newstoolbar a.bold {
+    background: url(Images/bold-16.png) center center no-repeat
+}
+
+ul.newstoolbar a.italic {
+    background: url(Images/italic-16.png) center center no-repeat
+}
+
+ul.newstoolbar a.link {
+    background: url(Images/link-5-16.png) center center no-repeat
+}
+
+ul.newstoolbar a.iimage {
+    background-image: url(Images/image_photo.png);
+    background-position: -64px -12px;
+    background-repeat: no-repeat
+}
+
+ul.newstoolbar a.uiimage {
+    background: url(images/image_photo.png) center center no-repeat
+}
+
+ul.newstoolbar a.list {
+    background: url('Images/ListItem(LI)_5796.png') center center no-repeat
+}
+
+ul.newstoolbar a.children-list {
+    background: url('Images/ListItem(LI)_child5796.png') center center no-repeat
+}
+
+ul.newstoolbar a.uifile {
+    background: url('Images/upload-3-16.png') no-repeat center center
+}
+
+ul.newstoolbar a.undo {
+    background: url(Images/undo-3-16.png) no-repeat center center
+}
+
+ul.newstoolbar a.redo {
+    background: url(Images/redo-3-16.png) no-repeat center center
+}
+
+ul.newstoolbar a.h_t {
+    background: url('Images/Tag_7213.png') no-repeat center center
+}
+
+ul.newstoolbar a.justifyLeft {
+    background: url('Images/align-left-4-16.png') no-repeat center center
+}
+
+ul.newstoolbar a.justifyRight {
+    background: url('Images/align-right-4-16.png') no-repeat center center
+}
+
+ul.newstoolbar a.justifyCenter {
+    background: url('Images/align-center-2-16.png') no-repeat center center
+}
+
+ul.newstoolbar a.justifyFull {
+    background: url('Images/text-justify-16.png') no-repeat center center
+}
+
+ul.newstoolbar a.embedYTV {
+    background: url('Images/youtubeIcon.png') no-repeat center center
+}
+
+ul.newstoolbar a.files {
+    background: url('Images/FileGroup_16x.png') no-repeat center center
+}
+
+ul.newstoolbar a.cl-set {
+    background: url('Images/ColorWheel_16x.png') no-repeat center center
+}
+
+ul.newstoolbar a.fs-set {
+    background: url('Images/FontSize_16x.png') no-repeat center center
+}
+
+ul.newstoolbar a.table {
+    background: url('Images/Table_748.png') no-repeat center center
+}
+
+div.table-cmds {
+    padding: 0!important;
+    border: none
+}
+
+div.table-cmds button {
+    width: 70px;
+    margin-bottom: 2px;
+    overflow: hidden
+}
