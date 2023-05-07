@@ -1,7 +1,7 @@
 <div class="container-article">
     <div class="article-created">
         <span class="date">🕐Đăng vào <?php the_date(); ?>,</span>
-        Tags: <?php the_tags( ' <span class="tag">🔖', '</span><span class="tag">🔖','</span>' ); ?>,
+        <?php the_tags( ' <span class="tag">🔖', '</span><span class="tag">🔖','</span>' ); ?>
         <!-- <span class="tag">🔖category</span> -->
         Bình luận: <span class="tag">📜<?php comments_number();?></span>
     </div>

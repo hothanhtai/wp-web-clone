@@ -113,6 +113,8 @@
 
 
         </div>
+       
+
     </div>
     
         <div class="item item2">
@@ -120,6 +122,10 @@
                  data-width="310" data-height="" data-small-header="true"
                  data-adapt-container-width="true" data-hide-cover="false"
                  data-show-facepile="true"></div>
+
+            <div class="widget-footer">
+                <?php dynamic_sidebar('footer-1'); ?>
+            </div>
         </div>
 
     <div class="clr" style="display:block;"></div>
@@ -141,6 +147,9 @@
 
 
 <?php wp_footer(); ?>
+<style>
 
+   
+</style>
 </body>
 </html>

@@ -204,6 +204,7 @@
                             <div class="textline name">HoToc.Vn</div>
                             <div class="textline undername bigger">Quản l&#253; gia phả v&#224; c&#225;c hoạt động họ tộc - d&#242;ng họ, hiệu quả, dễ sử dụng</div>
                         </div>
+                        <?php dynamic_sidebar('menu-1') ?>
                     </div>
                 </div>
                 <div class="clr"></div>
@@ -224,6 +225,7 @@
             )
         );
     ?>
+
         
     <ul class="gmenu hmenu lo-o mainul">    
 
