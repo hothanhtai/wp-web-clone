@@ -18,3 +18,7 @@ Stack trace:
 #7 {main}
   thrown in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\header.php on line 228
 
+2023-05-07T10:21:49+00:00 CRITICAL syntax error, unexpected single-quoted string "Tìm kiếm", expecting ":" in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\404.php on line 13
+
+2023-05-07T10:23:14+00:00 CRITICAL syntax error, unexpected token "echo" in C:\xampp\htdocs\hothanhtai_wp\wp-content\themes\web-clone\404.php on line 14
+
