@@ -221,13 +221,13 @@
                 'menu' => 'primary',
                 'container' => '',
                 'theme_location' => 'primary',
-                'items_wrap' => '<ul id="a123" class="a1234">%3$s</ul>'
+                'items_wrap' => '<ul id="" class="gmenu hmenu lo-o mainul">%3$s</ul>'
             )
         );
     ?>
 
         
-    <ul class="gmenu hmenu lo-o mainul">    
+    <!-- <ul class="gmenu hmenu lo-o mainul">    
 
 
 
@@ -405,7 +405,7 @@
             </div>        
         </li>
                
-    </ul>
+    </ul> -->
 
     </div>
 
